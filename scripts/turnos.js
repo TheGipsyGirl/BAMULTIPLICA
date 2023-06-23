@@ -42,7 +42,7 @@ function realizarPedido() {
     }
 
     if (serviciosElegidos.length < 2) {
-        alert("Recorda que si reservas 2 servicios tenes descuento.");
+        alert("Recorda que si reservas 2 servicios tenés descuento.");
         return;
     }
 

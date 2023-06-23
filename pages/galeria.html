@@ -5,77 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--CSS-->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/normalize.css">
 <!--GOOGLE FONTS-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
-<!--SCRIPT-->
-<script src="/turnos.js"></script>
 <!--BOOTSTRAP-->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <title>NAIL DESIGNER</title>
 </head>
 <body>
-    <header>
-        <div>
-            <a href="index.html"> <img src="img/1686103673036.png" width="300" alt="logo"></a>
-        </div>
+<header>
+    <div>
+        <a href="../index.html"> <img src="../img/1686103673036.png" width="300" alt="logo"></a>
+    </div>
 
-        <nav >
-        <ul class="holder">
-        <li><a href="index.html">HOME</a></li>
-        <li><a  href="servicios.html">SERVICIOS</a></li>
-        <li><a class="activo" href="turnos.html">RESERVACIONES</a></li>
-        <li><a href="galeria.html">DISEÑOS</a></li>
+<nav >
+    <ul class="holder">
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="servicios.html">SERVICIOS</a></li>
+        <li><a href="turnos.html">RESERVACIONES</a></li>
+        <li><a class="activo" href="galeria.html">DISEÑOS</a></li>
         <li><a href="tienda.html">TIENDA</a></li>
         <li><a href="contacto.html">CONTACTO</a></li>
-        </ul>
-        </nav>
-    </header>
-    <main>
-    
-        <h1>Servicios de uñas</h1>
-        <button onclick="mostrarAlerta()">Ver promoción</button>
-        <br><br>
-        <label>Seleccione los servicios:</label>
-        <br>
-        <input type="checkbox" name="servicio" value="Servicio 1:"> Servicio 1 SEMI MANOS 
-        <br>
-        <input type="checkbox" name="servicio" value="Servicio 2:"> Servicio 2 KAPPING
-        <br>
-        <input type="checkbox" name="servicio" value="Servicio 3:"> Servicio 3 SOFT GEL
-        <br>
-        <input type="checkbox" name="servicio" value="Servicio 4:"> Servicio 4 ACRILICAS
-        <br>
-        <input type="checkbox" name="servicio" value="Servicio 5:"> Servicio 5 SEMI PIES
-        <br><br>
-        <label>Seleccione el día:</label>
-        <input type="date" id="fecha" min="2023-06-08" max="2023-06-30">
-        <br><br>
-        <label>Seleccione el turno:</label>
-        <select id="turno">
-            <option value="14:00">14:00</option>
-            <option value="15:30">15:30</option>
-            <option value="17:00">17:00</option>
-            <option value="18:30">18:30</option>
-            <option value="20:00">20:00</option>
-        </select>
-        <br><br>
-        <label>Seleccione la forma de pago:</label>
-        <br>
-        <input type="radio" name="pago" value="Transferencia"> Transferencia
-        <br>
-        <input type="radio" name="pago" value="Código QR"> Código QR
-        <br>
-        <input type="radio" name="pago" value="Mercado Pago"> Mercado Pago
-        <br><br>
-        <button onclick="realizarPedido()">Realizar pedido</button>
+    </ul>
+</nav>
+</header>
 
-    <script src="turnos.js"></script>
+    <main class="holder"> 
+      <H1>TE DEJO ESTOS DISEÑOS COMO GUÍA</H1>
 
+        <h2>LOS MÁS ELEGIDOS</h2>
+            <div class="galeria 2">
+                <div>
+                    <img src="../img/restored.jpg">
+                    <img src="../img/esculpidasengel.jpg">
+                    <img src="../img/manos-hermosas-con-unas-lindas-992x1024.webp" alt="">
+
+                    <img src="../img/acrilicasbellas.jpg" alt="">
+                </div>
+            </div>
+            <h2>TENDENCIAS 2023</h2>
+            <div class="galeria 2">
+                <div>
+                    <img src="../img/softgellarge.jpg">
+
+                    <img src="../img/ULTUÑAS.jpg">
+                    <img src="../img/look-red-carpet-bafta_1_2.jpg.webp">
+                    <img src="../img/softperfecta.jpg" alt="">
+                </div>
     </main>
+
     <footer>
         <div class="container-footer-all">
           <div class="container-body">
@@ -111,7 +92,7 @@
                       <path d="M8 6.982C9.664 5.309 13.825 8.236 8 12 2.175 8.236 6.336 5.309 8 6.982Z"/>
                       <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.707L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.646a.5.5 0 0 0 .708-.707L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
                     </svg>
-                      <label>Independecia y Pueyrredón, Tafí Viejo, Tucumán.</label>
+                      <label>Independencia y Pueyrredón, Tafí Viejo, Tucumán.</label>
                   </div>
                   <div class="row2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
